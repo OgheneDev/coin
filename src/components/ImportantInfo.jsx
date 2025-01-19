@@ -1,4 +1,8 @@
 import React from 'react';
+import twitter from '../assets/images/twitter.png';
+import telegram from '../assets/images/telegram.png';
+import medium from '../assets/images/medium.png';
+import blockchain from '../assets/images/blockchain.png';
 
 const ImportantInfo = () => {
   const sliderItems = [
@@ -50,7 +54,7 @@ const ImportantInfo = () => {
 
         {/* Social Icons */}
         <div className="flex justify-center gap-6 mt-12">
-          {['twitter', 'telegram', 'medium', 'website'].map((platform) => (
+          {['twitter', 'telegram', 'medium', 'blockchain'].map((platform) => (
             <div key={platform} className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
               <div className="w-5 h-5 bg-white/80 rounded-full" />
             </div>

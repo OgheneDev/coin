@@ -5,6 +5,7 @@ import AboutSection from './components/AboutSection'
 import HowToBuy from './components/HowToBuy'
 import BlockChainSection from './components/BlockChainSection'
 import ImportantInfo from './components/ImportantInfo'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <HowToBuy />
       <BlockChainSection />
       <ImportantInfo />
+      <Footer />
     </div>
   )
 }
