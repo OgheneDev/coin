@@ -71,10 +71,12 @@ const BlockchainSection = () => {
           {/* Right Side - Text and Address Bars */}
           <div className="space-y-6">
             <p className="text-gray-200 text-sm md:text-base leading-relaxed">
-              $TBD IS AVAILABLE ON TWO OF THE LEADING DECENTRALIZED EXCHANGES,
-              NAMELY RAYDIUM AND UNISWAP. THIS DIVERSIFICATION ENSURES EASY
-              ACCESS AND FLEXIBILITY FOR OUR COMMUNITY, ACCOMMODATING VARIOUS
-              USER PREFERENCES ACROSS DIFFERENT BLOCKCHAIN ECOSYSTEMS.
+            $TRUMPBD is proudly available on the leading and most user-friendly blockchain, Solana. Our choice of Solana ensures that our community benefits from easy access, exceptional flexibility, and lightning-fast transaction speeds. Solana is renowned for its robust performance and low transaction costs, making it an ideal platform for innovative projects like $TRUMPBD.
+Why Solana?
+High Performance: Solana can process thousands of transactions per second, ensuring that your $TRUMPBD transactions are swift and efficient.
+Low Fees: With transaction fees that are among the lowest in the industry, Solana makes it cost-effective to participate in the $TRUMPBD ecosystem.
+Scalability: Solana’s architecture is designed to scale without compromising on performance, which means it can handle a growing number of users and transactions seamlessly.
+Secure & Decentralized: Solana’s decentralized network of validators provides a secure environment for your $TRUMPBD assets.
             </p>
 
             <div className="space-y-4">

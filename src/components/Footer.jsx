@@ -9,9 +9,6 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="max-w-md">
             <h2 className="text-white text-2xl font-semibold mb-4">TrumpCoin</h2>
-            <p className="text-gray-400 text-sm">
-              Euismod libero faucibus egestas elementum scelerisque porta commodo purus nam. Ante ac egestas duis.
-            </p>
           </div>
 
           {/* Social Links */}

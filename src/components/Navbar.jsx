@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex bg-gradient-to-b from-gray-900 via-blue-900/80 to-gray-900 justify-between items-center text-white p-5 md:px-[60px] relative">
-      <h3 className="font-semibold text-[13px] uppercase">Trump coin</h3>
+      <h3 className="font-semibold text-[13px] uppercase">Trump big day</h3>
 
       {/* Desktop Menu */}
       <ul className="hidden md:flex gap-5 items-center">
@@ -40,7 +40,7 @@ const Navbar = () => {
           className="text-[13px] cursor-pointer"
           onClick={() => scrollToSection('tokenomicsSection')}
         >
-          Tokenomics
+          Blockchain
         </li>
       </ul>
       <button className="rounded-md py-2 px-5 text-white hidden md:block text-[14px] bg-black">
@@ -80,7 +80,7 @@ const Navbar = () => {
             className="cursor-pointer"
             onClick={() => scrollToSection('tokenomicsSection')}
           >
-            Tokenomics
+            Blockchain
           </li>
           <button className="rounded-md py-2 px-5 text-white text-[14px] bg-black">
             Get TrumpCoin
