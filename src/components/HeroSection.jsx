@@ -1,9 +1,10 @@
 import React from 'react'
+import hero from '../assets/images/HOME.png'
 
 const HeroSection = () => {
   return (
-    <section className="bg-[url('./src/assets/images/HOME.png')] h-[35vh] md:h-[100vh] md:bg-cover w-full  bg-no-repeat bg-contain">
-       
+    <section className="">
+       <img src={hero} alt="" className='w-full h-[40vh] md:h-[100vh]' />
     </section>
   )
 }
