@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react'
-import select from '../../assets/images/select.png'
-import browser from '../../assets/images/browser.png'
-import send from '../../assets/images/send.png'
-import search from '../../assets/images/search.png'
+import select from '../../assets/images/1.png'
+import browser from '../../assets/images/2.png'
+import send from '../../assets/images/4.png'
+import search from '../../assets/images/3.png'
 import database from '../../assets/images/database.png'
 import secure from '../../assets/images/secure.png'
 import q from '../../assets/images/q.png'
@@ -122,7 +122,7 @@ const CardSlider = () => {
               className="snap-center shrink-0 w-[90vw] md:w-[550px] px-[20px] py-[50px] rounded-lg flex flex-col items-start "
               style={{ backgroundColor: card.backgroundColor }}
             >
-              <div className='bg-blue-800 mb-5 w-[50px] h-[50px] rounded-full flex items-center justify-center'>
+              <div className='bg-gradient-to-b from-gray-900 via-blue-900/80 to-gray-900s mb-5 w-[50px] h-[50px] rounded-full flex items-center justify-center'>
               <img src={card.icon} alt="" />
               </div>
               <h1 
@@ -135,7 +135,7 @@ const CardSlider = () => {
                 >
                     {card.description}
                 </p>
-              <img src={card.image} alt={card.name} className=" h-auto mb-4 mx-auto" />
+              <img src={card.image} alt={card.name} className=" h-auto mb-4 mx-auto w-[300px]" />
             </div>
           ))}
       </div>

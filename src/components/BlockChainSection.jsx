@@ -83,7 +83,6 @@ Secure & Decentralized: Solana’s decentralized network of validators provides 
 
               {/* Address Bars with Icons */}
               <AddressBar icons={[solana, room]} />
-              <AddressBar icons={[uni, base]} />
             </div>
           </div>
         </div>
