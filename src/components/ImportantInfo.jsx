@@ -37,9 +37,10 @@ const ImportantInfo = () => {
               <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
             </svg>
           </div>
-          <h2 className="text-4xl font-bold text-white mb-4">IMPORTANT INFO</h2>
-          <div className="text-2xl text-white/90 mb-8">Total Token Supply</div>
-          <div className="text-3xl font-bold text-white mb-12">$100,000,000,000,000</div>
+          <h2 className="text-4xl font-bold text-white mb-2">IMPORTANT INFO</h2>
+          <div className="w-[60%] md:w-[250px] h-[1px] bg-white mx-auto mb-2" />
+          <div className=" text-white/90 font-semibold">Total Token Supply</div>
+          <div className=" font-semibold text-white text-[20px] mb-12">$100,000,000,000,000</div>
         </div>
 
         {/* Infinite Slider */}
@@ -53,13 +54,25 @@ const ImportantInfo = () => {
         </div>
 
         {/* Social Icons */}
-        <div className="flex justify-center gap-6 mt-12">
-          {['twitter', 'telegram', 'medium', 'blockchain'].map((platform) => (
-            <div key={platform} className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
-              <div className="w-5 h-5 bg-white/80 rounded-full" />
-            </div>
-          ))}
-        </div>
+<div className="flex justify-center gap-6 mt-12">
+  {[{ src: twitter, alt: "Twitter" }, 
+    { src: telegram, alt: "Telegram" }, 
+    { src: medium, alt: "Medium" }, 
+    { src: blockchain, alt: "Blockchain" }
+  ].map((icon, index) => (
+    <div 
+      key={index} 
+      className="w-10 h-10 rounded-full bg-white shadow-lg shadow-black flex items-center justify-center"
+    >
+      <img 
+        src={icon.src} 
+        alt={icon.alt} 
+        className="w-5 h-5"
+      />
+    </div>
+  ))}
+</div>
+
       </div>
     </div>
   );

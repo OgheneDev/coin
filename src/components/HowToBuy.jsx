@@ -25,6 +25,7 @@ const HowToBuy = () => {
         </div>
       </div>
     </div>
+    <div className="w-[60%] h-[1px] bg-white mx-auto mb-16" />
       <CardSlider />
     </div>
   )

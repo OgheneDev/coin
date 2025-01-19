@@ -50,19 +50,19 @@ const BlockchainSection = () => {
     <div className="bg-gradient-to-b from-gray-900 via-blue-900/80 to-gray-900 py-8 px-5">
       <div className="md:max-w-6xl mx-auto">
         {/* Title */}
-        <h1 className="text-white text-4xl md:text-5xl font-bold mb-4 text-center">
+        <h1 className="text-white text-3xl md:text-4xl font-bold mb-4 text-center">
           BLOCKCHAIN
         </h1>
-        <div className="w-20 h-1 bg-white mx-auto mb-16" />
+        <div className="w-[60%] md:w-[200px] h-[1px] bg-white mx-auto mb-8" />
 
         {/* Content Grid */}
-        <div className="grid md:grid-cols-2 gap-8 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Left Side - Circle Image */}
           <div className="flex justify-center">
-            <div className="w-64 h-64 rounded-full bg-white overflow-hidden shadow-lg">
+            <div className="w-48 md:w-64 h-48 md:h-64 rounded-full bg-white overflow-hidden shadow-lg">
               <img
                 src={buy}
-                alt="Placeholder"
+                alt="Buy Placeholder"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -70,7 +70,7 @@ const BlockchainSection = () => {
 
           {/* Right Side - Text and Address Bars */}
           <div className="space-y-6">
-            <p className="text-gray-200 text-sm md:text-base mb-8 leading-relaxed">
+            <p className="text-gray-200 text-sm md:text-base leading-relaxed">
               $TBD IS AVAILABLE ON TWO OF THE LEADING DECENTRALIZED EXCHANGES,
               NAMELY RAYDIUM AND UNISWAP. THIS DIVERSIFICATION ENSURES EASY
               ACCESS AND FLEXIBILITY FOR OUR COMMUNITY, ACCOMMODATING VARIOUS
@@ -78,7 +78,7 @@ const BlockchainSection = () => {
             </p>
 
             <div className="space-y-4">
-              <h3 className="text-white text-lg mb-4">
+              <h3 className="text-white text-lg md:text-xl">
                 CROSS CHAIN, BUY ON RAYDIUM OR UNISWAP
               </h3>
 
