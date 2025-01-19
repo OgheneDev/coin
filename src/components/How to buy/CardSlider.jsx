@@ -33,8 +33,8 @@ const CardSlider = () => {
         },
         {
             icon: security,
-            name: 'Swap for Trumpcoin',
-            description: 'Use phantom wallet`s swap feature to exchange for trumpcoin',
+            name: 'Swap for $Trumpbd',
+            description: 'Use phantom wallet`s swap feature to exchange for $Trumpbd',
             image: search,
             backgroundColor: '#B9FF66',
             textColor: '#00000'

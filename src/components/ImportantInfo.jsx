@@ -40,7 +40,7 @@ const ImportantInfo = () => {
           <h2 className="text-4xl font-bold text-white mb-2">IMPORTANT INFO</h2>
           <div className="w-[60%] md:w-[250px] h-[1px] bg-white mx-auto mb-2" />
           <div className=" text-white/90 font-semibold">Total Token Supply</div>
-          <div className=" font-semibold text-white text-[20px] mb-12">$100,000,000,000,000</div>
+          <div className=" font-semibold text-white text-[20px] mb-12">$1,000,000,000,000</div>
         </div>
 
         {/* Infinite Slider */}
