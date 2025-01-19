@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: linear-gradient(
+        to bottom,
+        rgb(17, 24, 39),
+        rgba(30, 58, 138, 0.8),
+        rgb(17, 24, 39)
+    );
+}
+
+body, button, select {
+    font-family: "Montserrat", serif;
+}
+
+.card-slider {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+  }
+  
+  .card-slider::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+  }
