@@ -61,25 +61,6 @@ const ImportantInfo = () => {
   );
 };
 
-// Add this to your global CSS
-const style = `
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
 
-.animate-scroll {
-  animation: scroll 30s linear infinite;
-}
-
-/* Optional: Pause animation on hover */
-.animate-scroll:hover {
-  animation-play-state: paused;
-}
-`;
 
 export default ImportantInfo;
