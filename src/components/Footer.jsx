@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
           {/* Logo and Description */}
           <div className="max-w-md">
-            <h2 className="text-white text-2xl font-semibold mb-4">TrumpCoin</h2>
+            <h2 className="text-white text-2xl font-semibold mb-4">Trump Big Day</h2>
           </div>
 
           {/* Social Links */}
@@ -23,7 +23,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-12 pt-6 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-gray-400 text-sm">
-            Copyright © 2025 TrumpCoin
+            Copyright © 2025 Trumpbd
           </div>
           <div className="text-gray-400 text-sm">
             Design By Styceee

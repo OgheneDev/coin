@@ -56,7 +56,7 @@ const BlockchainSection = () => {
         <div className="w-[60%] md:w-[200px] h-[1px] bg-white mx-auto mb-8" />
 
         {/* Content Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center md:items-start">
           {/* Left Side - Circle Image */}
           <div className="flex justify-center">
             <div className="w-48 md:w-64 h-48 md:h-64 rounded-full bg-white overflow-hidden shadow-lg">
@@ -80,9 +80,6 @@ Secure & Decentralized: Solana’s decentralized network of validators provides 
             </p>
 
             <div className="space-y-4">
-              <h3 className="text-white text-lg md:text-xl">
-                CROSS CHAIN, BUY ON RAYDIUM OR UNISWAP
-              </h3>
 
               {/* Address Bars with Icons */}
               <AddressBar icons={[solana, room]} />

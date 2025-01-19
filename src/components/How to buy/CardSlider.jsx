@@ -41,8 +41,8 @@ const CardSlider = () => {
         },
         {
             icon: secure,
-            name: 'Create a Wallet',
-            description: 'Download a solana-compatible wallet like phantom wallet.',
+            name: 'HODL and Celebrate',
+            description: 'Watch as the meme coin magic umfolds!!!',
             image: send,
             backgroundColor: '#F3F3F3',
             textColor: '#00000'

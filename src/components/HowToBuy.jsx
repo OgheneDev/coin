@@ -17,8 +17,8 @@ const HowToBuy = () => {
           
           {/* Right side - Subtitle */}
           <div className="max-w-sm">
-            <p className="text-gray-200 text-sm md:text-right">
-              READY TO OWN SOME TRUMPCOIN TOKEN?
+            <p className="text-gray-200 uppercase text-sm md:text-right">
+              READY TO OWN SOME $Trumpbp TOKEN?
               FOLLOW THESE STRAIGHTFORWARD STEPS
             </p>
           </div>

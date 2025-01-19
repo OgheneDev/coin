@@ -43,8 +43,8 @@ const Navbar = () => {
           Blockchain
         </li>
       </ul>
-      <button className="rounded-md py-2 px-5 text-white hidden md:block text-[14px] bg-black">
-        Get TrumpCoin
+      <button className="rounded-md uppercase py-2 px-5 text-white hidden md:block text-[14px] bg-black">
+        Get $Trumpbd
       </button>
 
       {/* Mobile Menu Button */}
@@ -83,7 +83,7 @@ const Navbar = () => {
             Blockchain
           </li>
           <button className="rounded-md py-2 px-5 text-white text-[14px] bg-black">
-            Get TrumpCoin
+            Get $Trumpbp
           </button>
         </div>
       )}
