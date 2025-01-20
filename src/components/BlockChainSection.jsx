@@ -2,12 +2,11 @@ import React from "react";
 import { Copy, Link } from "lucide-react";
 import buy from "../assets/images/buy.png";
 import room from "../assets/images/room.png";
-import base from "../assets/images/base.png";
 import solana from "../assets/images/solana.png";
-import uni from "../assets/images/uni.png";
+
 
 const BlockchainSection = () => {
-  const address = "EXVUTUKPD4WEHLKWJUG7WO5KZ6UIVHDAUXXQHPWPUMP";
+  const address = "yF1qttSJNEs3UcFCvcyhud5WqrEUiqLKxFxmc3Amoon";
 
   // Copy Button
   const CopyButton = () => (
